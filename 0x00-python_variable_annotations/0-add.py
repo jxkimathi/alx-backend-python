@@ -2,6 +2,6 @@
 """Function add that takes a float"""
 
 
-def add(a: float, b: float):
+def add(a: float, b: float) -> float:
     """Takes float and returns their sum"""
     return a + b
