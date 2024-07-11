@@ -7,6 +7,6 @@ from random import uniform
 async_generator = __import__('0-async_generator').async_generator
 
 
-async def asynnc_comprehension() -> List[float]:
+async def async_comprehension() -> List[float]:
     """Collects 10 random numbers and runs a coroutine"""
     return [num async for num in async_generator]
